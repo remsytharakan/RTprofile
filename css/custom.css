@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*------------------------------------------------------------------
-Project:		Ecova | RT PROFILE Theme
+Project:		Ecova | Eco HTML Theme
 Version:		1.0
 AuthorName:		GramoTech
 Primary use:	Eco , Environmental, Charity, Eco Projects 
@@ -6824,7 +6824,4 @@ section.wf100.p80.fcampaigns {
     height: 10px;
     border-radius: 50%;
     background-color: #4CAF50;
-}
-.nav-link {
-    font-size: 14px; /* Adjust the font size as needed */
 }
