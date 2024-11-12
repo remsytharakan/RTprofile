@@ -548,7 +548,7 @@ section#home-slider img {
 	font-family: 'droidSans';
 }
 .home-about {
-	background: url(../images/aboutbg.jpg) no-repeat #fff;
+	background: url(../images/aboutbg.jpg) no-repeat #bddeed;
 }
 .about-pic {
 	position: relative;
@@ -572,10 +572,18 @@ section#home-slider img {
 	box-shadow: 0 10px 40px rgba(0,0,0,.12);
 	z-index: 1;
 }
+.about-txt{
+	text-align: justify;
+}
+
+
+
 .about-txt h2 {
 	position: relative;
-	line-height: 52px;
+	line-height: 42px;
 	margin-bottom: 40px;
+	text-align:left;
+
 }
 .about-txt h2 span {
 	display: block;
@@ -5826,6 +5834,7 @@ About Us Page
 	z-index: -7;
 }
 .about-text {
+	text-align: justify;
 	margin-top: 35px;
 }
 .about-text h5 {
@@ -5841,6 +5850,7 @@ About Us Page
 .about-text p strong {
 	font-size: 20px;
 	font-weight: 500;
+	
 }
 .about-text a {
 	background: #357892 !important;
@@ -6835,7 +6845,7 @@ section.wf100.p80.fcampaigns {
     overflow: hidden;
 }
 .hero-content p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: white; /* Black text for small screens (xs) */
 }
 .hero-content {
@@ -6880,6 +6890,7 @@ section.wf100.p80.fcampaigns {
 	}
 
 	.hero-content p {
+		font-size: 1rem;
         color: #000; /* Black text for small screens (xs) */
     }
 	
