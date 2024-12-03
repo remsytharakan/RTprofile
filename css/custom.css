@@ -552,6 +552,7 @@ section#home-slider img {
 }
 .about-pic {
 	position: relative;
+	
 }
 .pic1 {
 	position: absolute;
@@ -562,18 +563,31 @@ section#home-slider img {
 	box-shadow: 0 10px 40px rgba(0,0,0,.12);
 	z-index: 9;
 	width: 340px;
+	height: 400px;
+	bottom:170px;
 }
 .pic2 {
 	position: absolute;
 	left: 0;
-	top: 150px;
+	top: 10px;
 	border: 10px solid #fff;
 	overflow: hidden;
 	box-shadow: 0 10px 40px rgba(0,0,0,.12);
 	z-index: 1;
 }
+.pic3 {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	border: 10px solid #fff;
+	overflow: hidden;
+	box-shadow: 0 10px 40px rgba(0,0,0,.12);
+	z-index: 1;
+	height:350px;
+}
 .about-txt{
 	text-align: justify;
+	bottom:60px;
 }
 
 
@@ -636,6 +650,10 @@ section#home-slider img {
 	font-size: 12px;
 	margin-right: 3px;
 }
+/* about new section */
+
+
+  
 .home1 a.lm {
 	color: #fff;
 	border-radius: 35px;
@@ -1612,7 +1630,7 @@ a.cart-icon:hover, a.search-icon:hover {
 }
 section.services-area ul {
 	margin: 0px;
-	padding: 0px;
+	padding: 20px;
 	list-style: none;
 	width: 100%;
 	float: left;
@@ -1621,11 +1639,12 @@ section.services-area ul {
 	box-shadow: 0 12px 26px rgba(0,0,0,.08);
 }
 section.services-area ul li {
-	width: 20%;
+	width: 16%;
 	float: left;
 	text-align: center;
 	position: relative;
-	padding: 20px 0;
+	padding: 10px 0;
+	
 }
 section.services-area ul li:last-child .sinfo {
 	border: 0px;
@@ -1795,6 +1814,16 @@ section.services-area ul li.active:after {
 	font-weight: 500;
 	margin-bottom: 10px;
 }
+.section-title-3 h4 {
+    color: #357892 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top:100px;
+    max-width: 400px; /* Adjust width to ensure proper wrapping */
+    word-wrap: break-word;
+    line-height: 1.5; /* Adjust for readability */
+}
+
 .section-title-2 h2 {
 	color: #222222;
 	font-family: 'Poppins', sans-serif;
@@ -1976,38 +2005,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	z-index: 99;
 }
 .pro-hover {
-	position: absolute;
-	left: 20px;
-	right: 20px;
-	background: #fff;
-	bottom: -100%;
-	z-index: 99;
-	padding: 20px;
-	border-radius: 5px;
-	opacity: 0;
-	transition: all ease-in-out 0.5s;
-	-webkit-transition: all ease-in-out 0.5s;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    bottom: 20px; /* Position it at the bottom inside the box */
+    z-index: 99;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 1; /* Ensure the white box is always visible */
+    transition: none; /* Remove hover transitions */
+	text-align: center;
 }
+
 .pro-hover h6 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	color: #222;
-	margin: 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 10px;
 }
-.pro-hover p {
-	font-size: 14px;
-	margin: 0 0 5px;
-	font-family: 'Roboto', sans-serif;
+
+.pro-box:after {
+    /* Optional: Adjust gradient to make the text more visible */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
-.pro-hover a {
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 12px;
-	color: #357892;
+
+.pro-box h5 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    z-index: 100; /* Ensure it appears above the gradient */
 }
-.pro-box:hover h5 {
-	opacity: 0;
-}
+
 .pro-box:hover .pro-hover {
 	bottom: 20px;
 	opacity: 1;
@@ -3787,17 +3819,23 @@ Causes Pages Start
 *********************************/
 
 .causes-listing .campaign-box {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
+    
+    margin: 0 auto; /* Centers the box within its parent container */
 }
-.causes-listing .campaign-thumb {
-	width: 42.7%;
-	float: left;
-}
+
+.causes-listing .campaign-thumb,
 .causes-listing .campaign-txt {
-	width: 57.3%;
-	float: left;
-	clear: none;
+    width: 42.7%; /* Ensure these retain their proportionate widths */
+    float: left;
+    clear: none;
 }
+
+.causes-listing .campaign-txt {
+    width: 57.3%;
+    padding-left: 20px; /* Optional: Add padding for better spacing */
+}
+
 .causes-listing .campaign-txt h4 {
 	font-weight: 700;
 	line-height: 36px;
@@ -3823,8 +3861,9 @@ Causes Pages Start
 	font-size: 16px;
 	display: inline-block;
 	border-radius: 3px;
-	line-height: 44px;
+	line-height: 40px;
 	padding: 0 30px;
+	margin-top: 50px;
 }
 .causes-listing ul.funds {
 	margin: 0 0 13px;
