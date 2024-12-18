@@ -568,7 +568,7 @@ section#home-slider img {
 }
 .pic2 {
 	position: absolute;
-	left: 0;
+	left: 100px;
 	top: 10px;
 	border: 10px solid #fff;
 	overflow: hidden;
