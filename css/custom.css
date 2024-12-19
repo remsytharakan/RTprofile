@@ -636,18 +636,17 @@ section#home-slider img {
 	color: #444444;
 	font-weight: 500;
 }
-@media (max-width: 768px) {
+
 .about-txt p {
 	font-size: 18px;
 	line-height: 28px;
 	color: #357892;
 	
-}}
-@media (max-width: 768px) {
+}
 .about-txt p strong {
 	color: #357892;
 	font-size: 16px;
-}}
+}
 .about-txt ul i {
 	color: #00cd93;
 	font-size: 12px;
