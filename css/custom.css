@@ -1705,6 +1705,7 @@ section.services-area ul li.active:after {
 	text-transform: uppercase;
 	background-color: #102e39 !important;
 }
+
 /***************  About  *****************/
 
 .home2-about {
@@ -1825,7 +1826,15 @@ section.services-area ul li.active:after {
     word-wrap: break-word;
     line-height: 1.5; /* Adjust for readability */
 }
-
+.section-title-3 h {
+    color: #357892 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top:100px;
+    max-width: 400px; /* Adjust width to ensure proper wrapping */
+    word-wrap: break-word;
+    line-height: 1.5; /* Adjust for readability */
+}
 .section-title-2 h2 {
 	color: #222222;
 	font-family: 'Poppins', sans-serif;
